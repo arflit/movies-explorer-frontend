@@ -13,3 +13,4 @@
 Typescript, React, CRA, React Router, HTML, CSS, БЭМ
 
 ## Запуск проекта
+npm start
