@@ -1,4 +1,25 @@
 
+.header {
+  height: 74px;
+}
+
 .header_main {
   background-color: #073042;
+}
+
+.header__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto;
+}
+
+.header__nav {
+  display: flex;
+  align-items: center;
+}
+
+.header__link {
+  color: white;
+  text-decoration: none;
 }

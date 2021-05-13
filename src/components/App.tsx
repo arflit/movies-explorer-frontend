@@ -1,21 +1,18 @@
 import React from 'react';
 import { Route } from 'react-router-dom';
 import './App.css';
-import { Header } from './Header/Header';
 import { Movies } from './Movies/Movies';
 import { SavedMovies } from './SavedMovies/SavedMovies';
 import { Register } from './Register/Register';
 import { Login } from './Login/Login';
 import { Profile } from './Profile/Profile';
 import { Main } from './Main/Main';
-import { Footer } from './Footer/Footer';
 
 function App() {
-  const isMain = true;
+  const [loggedIn, setLoggedIn] = React.useState(false);
 
   return (
     <div className="App">
-      <Header isMain={isMain} />
       <Route path="/movies">
         <Movies />
       </Route>
@@ -32,9 +29,8 @@ function App() {
         <Profile />
       </Route>
       <Route path="/">
-        <Main />
+        <Main loggedIn={loggedIn} />
       </Route>
-      <Footer />
     </div>
   );
 }
