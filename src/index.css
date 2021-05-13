@@ -1,3 +1,23 @@
 /* нормалайз и шрифты */
 @import url(./vendor/normalize.css);
 @import url(./vendor/fonts/fonts.css);
+
+body {
+  background-color: #202020;
+}
+
+.link {
+  transition: opacity 0.5s ease;
+  cursor: pointer;
+  border-style: none;
+  outline-style: none;
+}
+
+.link:hover {
+  opacity: 0.6;
+}
+
+.content {
+  max-width: 1140px;
+  margin: 0 auto;
+}

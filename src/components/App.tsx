@@ -11,9 +11,11 @@ import { Main } from './Main/Main';
 import { Footer } from './Footer/Footer';
 
 function App() {
+  const isMain = true;
+
   return (
     <div className="App">
-      <Header />
+      <Header isMain={isMain} />
       <Route path="/movies">
         <Movies />
       </Route>
