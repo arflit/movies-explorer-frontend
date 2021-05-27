@@ -1,0 +1,16 @@
+.promo {
+  height: 524px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(../../../images/landing-logo.svg) #073042 center no-repeat;
+}
+
+.promo__title {
+  margin: 0;
+  color: white;
+  font-size: 50px;
+  font-weight: 400;
+  max-width: 730px;
+  text-align: center;
+}

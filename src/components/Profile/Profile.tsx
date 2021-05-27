@@ -1,8 +1,9 @@
 import React from 'react';
 import './Profile.css';
+import { Header } from '../Header/Header';
 
-export function Profile() {
-  return (
-    <main />
-  );
-}
+export const Profile: React.FC = () => (
+  <main>
+    <Header />
+  </main>
+);

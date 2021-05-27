@@ -1,0 +1,76 @@
+.main-section__title {
+  padding: 110px 0 23px 0;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.main-section__columns {
+  display: flex;
+  margin-top: 70px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.main-section__column {
+  width: calc(50% - 20px);
+}
+
+.main-section__column-title {
+  margin: 0 0 26px 0;
+  font-size: 20px;
+  font-weight: 400;
+  
+}
+
+.main-section__text {
+  margin: 0;
+  font-size: 14px;
+}
+.progress-bar {
+  width: 100%;
+  display: flex;
+  margin: 110px 0;
+}
+
+.progress-bar__container_small {
+  min-width: 25%;
+}
+
+.progress-bar__container_big {
+  width: 75%;
+  flex-shrink: 1;
+}
+
+.progress-bar__stripe {
+  width: 100%;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.progress-bar__stripe_green {
+  background-color: #3DDC84;
+}
+
+.progress-bar__stripe_gray {
+  background-color: #303030;
+}
+
+.progress-bar__text {
+  font-size: 14px;
+  margin: 0;
+}
+
+.progress-bar__text_black {
+  color: black;
+}
+
+.progress-bar__annotation {
+  width: 100%;
+  text-align: center;
+  margin: 14px 0 0 0;
+  color: #8B8B8B;
+  font-size: 14px;
+  font-weight: 500;
+}

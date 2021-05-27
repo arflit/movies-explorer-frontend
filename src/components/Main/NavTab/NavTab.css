@@ -1,0 +1,28 @@
+.navtab {
+  height: 66px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #272727;
+}
+
+.navtab__menu {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navtab__linkContainer {
+  margin-right: 40px;
+}
+
+.navtab__linkContainer:last-of-type {
+  margin-right: 0;
+}
+
+.navtab__link {
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration-line: underline;
+}
