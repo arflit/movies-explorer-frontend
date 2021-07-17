@@ -9,6 +9,12 @@
   max-width: 600px;
 }
 
+@media (max-width: 1020px) {
+  .about-me__container {
+    max-width: calc(100% - 320px);
+  }
+}
+
 .about-me__title {
   margin: 0;
   font-size: 50px;
@@ -49,7 +55,7 @@
   font-weight: 400;
 }
 
-.portfolio__container {
+.portfolio__link {
   display: flex;
   width: 100%;
   justify-content: space-between;

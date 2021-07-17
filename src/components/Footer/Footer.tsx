@@ -19,6 +19,9 @@ export const Footer: React.FC = () => (
             <li className="footer__linkContainer">
               <a className="link footer__link" target="blank" href="https://www.facebook.com/arkady.flitman">Facebook</a>
             </li>
+            <li className="footer__linkContainer">
+              <a className="link footer__link" target="blank" href="https://hh.ru/resume/e962b09dff08c422120039ed1f704f4f63647a">HH</a>
+            </li>
           </ul>
         </nav>
       </div>

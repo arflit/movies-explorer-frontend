@@ -25,10 +25,21 @@ body {
 }
 
 .content {
-  width: 1140px;
+  max-width: 1140px;
   margin: 0 auto;
 }
 
+@media (max-width: 1240px) {
+  .content {
+    margin: 0 50px;
+  }
+}
+
+@media (max-width: 500px) {
+  .content {
+    margin: 0 14px;
+  }
+}
 .line {
   width: 100%;
   border: 1px solid #424242;

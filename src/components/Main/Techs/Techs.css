@@ -38,8 +38,46 @@
   padding: 21px 0;
   box-sizing: border-box;
   border-radius: 10px;
+  font-size: 14px;
 }
 
 .techs__icon:last-of-type {
   margin: 0;
+}
+
+@media (max-width: 900px) {
+  .techs__icon-list {
+    max-width: 390px;
+    flex-wrap: wrap;
+  }
+
+  .techs__icon {
+    margin-bottom: 10px;
+    font-size: 12px;
+    width: 84px;
+    height: 57px;
+  
+  }
+
+  .techs__icon:nth-of-type(4n) {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 550px) {
+  .techs__title {
+    font-size: 30px;
+  }
+  
+  .techs__subtitle {
+    font-size: 11px;
+  }
+
+  .techs__icon-list {
+    max-width: 190px;
+  }
+
+  .techs__icon:nth-of-type(2n) {
+    margin-right: 0;
+  }
 }

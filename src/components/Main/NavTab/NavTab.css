@@ -26,3 +26,13 @@
   font-weight: 500;
   text-decoration-line: underline;
 }
+
+@media (max-width: 550px) {
+  .navtab__link {
+    font-size: 11px;
+  }
+
+  .navtab__linkContainer {
+    margin-right: 24px;
+  }
+}

@@ -14,3 +14,27 @@
   max-width: 730px;
   text-align: center;
 }
+
+@media (max-width: 900px) {
+  .promo {
+    height: 784px;
+  }
+
+  .promo__title {
+    margin: 0 14px;
+  }
+}
+
+@media (max-width: 550px) {
+  .promo {
+    height: 570px;
+    background-size: 248px;
+  }
+
+
+  .promo__title {
+    font-size: 31px;
+    margin: 0 10px;
+    letter-spacing: -0.04em;
+  }
+}
